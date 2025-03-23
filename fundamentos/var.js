@@ -15,14 +15,5 @@ function teste() {
     console.log(local)
 }
 
-//teste()
-//console.log(local) // Erro! A variável local não está definida fora da função
-
-//==========================================================================================================
-
-var numero = 1
-{
-    var numero = 2
-    console.log('dentro =', numero)
-}
-console.log('fora =', numero)
+teste()
+console.log(local) // Erro! A variável local não está definida fora da função
